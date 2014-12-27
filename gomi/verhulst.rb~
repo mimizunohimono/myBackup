@@ -1,0 +1,10 @@
+M  = 1000.0
+g = 2.53
+def func(p)
+  return (1.0 + g + g*p/M)*p
+end
+
+p = 1000
+for i in 1..100
+  p func(p)
+end

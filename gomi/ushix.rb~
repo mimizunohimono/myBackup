@@ -1,0 +1,10 @@
+#!/usr/bin/ruby
+
+def func(x)
+  return x + (x/2).floor
+end
+
+x = 2
+(1..10).each do
+  puts func(2)
+end

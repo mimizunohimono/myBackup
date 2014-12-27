@@ -1,0 +1,48 @@
+T1 = ooo-file-hash-S-bnlj.exe
+T2 = file-hash-S-bnlj.exe
+T3 = gen.exe
+
+T4 = 2pl
+T5 = s2pl
+
+CC = g++
+GCC = gcc
+CFLAGS = -c -Wall -g -O2
+LDFLAGS = -Wall -L/usr/local/lib -lm -lpthread -lreadline
+
+O1 = ooo-file-hash-S-bnlj.o
+O2 = file-hash-S-bnlj.o
+O3 = gen.o
+
+
+LPTH = -lpthread
+
+2PL = 2pl.o
+S2PL = s2pl.o
+
+#
+# Rules for make
+#
+
+all: $(T3) $(T4) $(T5)  
+
+$(T1): $(O1) 
+	$(CC) -o $@ $^ $(LDFLAGS) -laio
+$(T2): $(O2) 
+	$(CC) -o $@ $^ $(LDFLAGS)
+$(T3): $(O3) 
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+$(T4): $(2PL) 
+	$(CC) -o $@ $^ $(LPTH)
+$(T5): $(S2PL) 
+	$(CC) -o $@ $^ $(LPTH)
+
+.cc.o:
+	$(CC) $(CFLAGS) $<
+
+.c.o:
+	$(GCC) $(CFLAGS) $<
+
+clean:
+	rm -f *~ *.o *.exe *.stackdump

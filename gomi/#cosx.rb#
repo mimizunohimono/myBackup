@@ -1,0 +1,9 @@
+def func
+  x = 0.0
+  20.times do |n|
+    x = Math.cos(x)
+    puts n
+  end
+end
+
+func

@@ -1,0 +1,40 @@
+hash-join test
+Diff: 351 us (0 ms)
+countVal: 10
+iodiff: 13
+joindiff: 2
+hash-bnlj test
+Diff: 207 us (0 ms)
+countVal: 10
+iodiff: 2
+joindiff: 2
+hash-join test
+Diff: 792 us (0 ms)
+countVal: 100
+iodiff: 73
+joindiff: 18
+hash-bnlj test
+Diff: 229 us (0 ms)
+countVal: 100
+iodiff: 2
+joindiff: 7
+hash-join test
+Diff: 1672 us (1 ms)
+countVal: 1000
+iodiff: 715
+joindiff: 183
+hash-bnlj test
+Diff: 1048 us (1 ms)
+countVal: 1000
+iodiff: 26
+joindiff: 64
+hash-join test
+Diff: 138336 us (138 ms)
+countVal: 1000
+iodiff: 90589
+joindiff: 18914
+hash-bnlj test
+Diff: 9191 us (9 ms)
+countVal: 1000
+iodiff: 373
+joindiff: 6351

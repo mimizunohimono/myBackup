@@ -1,0 +1,12 @@
+#!/bin/sh
+arg=1
+while [ $arg -ne 10000 ]
+do
+arg=`expr $arg \* 10`
+
+./gen.exe ${arg}
+echo "bnlj test"
+./bnlj.exe
+echo "hash-bnlj test"
+./hash-bnlj
+done

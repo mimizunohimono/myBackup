@@ -1,0 +1,29 @@
+#!/usr/bin/octave
+#result.m
+
+#Ax = b
+n = 10;
+lm = 0.6;
+delta = 0.2;
+unit = 0.001;
+A = round(rand(n, n) + delta)
+x = ones(n, 1) / n;
+b = A * x;
+p = zeros(n, 1);
+p(:,1) = ceil(b(:, 1) - lm);
+optx = x;
+optp = p;
+
+optx
+optp
+
+#make a val matrix
+Val = zeros(n, 1);
+Awei = sum(sum(A));
+for i = 1:n
+	  Val(i) = sum(A(:, i)) / n;
+end
+
+
+
+
