@@ -1,0 +1,6 @@
+DIGEST f1c238bf6c401f69ae8ae7d39fb0a56b
+FPropLogic
+R109:113 SfLib <> <> lib
+R131:135 Coq.Strings.Ascii <> <> lib
+R137:142 Coq.Strings.String <> <> lib
+R160:171 PropLogicDef <> <> lib

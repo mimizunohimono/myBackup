@@ -1,0 +1,450 @@
+DIGEST 3f46b80891206e4803add5c896f36217
+FSfLib
+R489:493 Coq.omega.Omega <> <> lib
+R555:558 Coq.Bool.Bool <> <> lib
+R576:579 Coq.Lists.List <> <> lib
+R619:623 Coq.Arith.Arith <> <> lib
+R641:651 Coq.Arith.EqNat <> <> lib
+def 736:740 <> admit
+R754:754 SfLib <> T var
+R777:782 Coq.Strings.String <> <> lib
+R985:987 Coq.Init.Logic <> :type_scope:x_'='_x not
+def 1755:1761 <> ble_nat
+R1770:1772 Coq.Init.Datatypes <> nat ind
+R1777:1780 Coq.Init.Datatypes <> bool ind
+R1793:1793 SfLib <> n var
+R1804:1804 Coq.Init.Datatypes <> O constr
+R1809:1812 Coq.Init.Datatypes <> true constr
+R1818:1818 Coq.Init.Datatypes <> S constr
+R1838:1838 SfLib <> m var
+R1853:1853 Coq.Init.Datatypes <> O constr
+R1858:1862 Coq.Init.Datatypes <> false constr
+R1872:1872 Coq.Init.Datatypes <> S constr
+R1880:1886 SfLib <> ble_nat def
+prf 1920:1934 <> andb_true_elim1
+R1972:1974 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1971:1971 SfLib <> b var
+R1975:1978 Coq.Init.Datatypes <> true constr
+R1960:1962 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1952:1955 Coq.Init.Datatypes <> andb def
+R1959:1959 SfLib <> c var
+R1957:1957 SfLib <> b var
+R1963:1966 Coq.Init.Datatypes <> true constr
+prf 2120:2134 <> andb_true_elim2
+R2172:2174 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2171:2171 SfLib <> c var
+R2175:2178 Coq.Init.Datatypes <> true constr
+R2160:2162 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2152:2155 Coq.Init.Datatypes <> andb def
+R2159:2159 SfLib <> c var
+R2157:2157 SfLib <> b var
+R2163:2166 Coq.Init.Datatypes <> true constr
+prf 2334:2344 <> beq_nat_sym
+R2362:2364 Coq.Init.Datatypes <> nat ind
+R2381:2383 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2370:2376 Coq.Arith.EqNat <> beq_nat def
+R2380:2380 SfLib <> m var
+R2378:2378 SfLib <> n var
+R2384:2390 Coq.Arith.EqNat <> beq_nat def
+R2394:2394 SfLib <> n var
+R2392:2392 SfLib <> m var
+ind 2734:2735 <> ev
+constr 2758:2761 <> ev_0
+constr 2774:2778 <> ev_SS
+R2739:2741 Coq.Init.Datatypes <> nat ind
+R2765:2766 SfLib <> ev ind
+R2768:2768 Coq.Init.Datatypes <> O constr
+R2791:2793 Coq.Init.Datatypes <> nat ind
+R2804:2805 SfLib <> ev ind
+R2808:2808 Coq.Init.Datatypes <> S constr
+R2811:2811 Coq.Init.Datatypes <> S constr
+R2813:2813 SfLib <> n var
+R2796:2797 SfLib <> ev ind
+R2799:2799 SfLib <> n var
+prf 2850:2858 <> andb_true
+R2903:2906 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2896:2898 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2895:2895 SfLib <> b var
+R2899:2902 Coq.Init.Datatypes <> true constr
+R2908:2910 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2907:2907 SfLib <> c var
+R2911:2914 Coq.Init.Datatypes <> true constr
+R2884:2886 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2876:2879 Coq.Init.Datatypes <> andb def
+R2883:2883 SfLib <> c var
+R2881:2881 SfLib <> b var
+R2887:2890 Coq.Init.Datatypes <> true constr
+R2982:2985 Coq.Init.Logic <> conj constr
+R2982:2985 Coq.Init.Logic <> conj constr
+prf 3065:3077 <> false_beq_nat
+R3094:3096 Coq.Init.Datatypes <> nat ind
+R3132:3134 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3120:3126 Coq.Arith.EqNat <> beq_nat def
+R3130:3131 SfLib <> n' var
+R3128:3128 SfLib <> n var
+R3135:3139 Coq.Init.Datatypes <> false constr
+R3105:3108 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3104:3104 SfLib <> n var
+R3109:3110 SfLib <> n' var
+R3209:3215 Coq.Arith.EqNat <> beq_nat def
+R3209:3215 Coq.Arith.EqNat <> beq_nat def
+R3272:3283 Coq.Arith.EqNat <> beq_nat_true thm
+R3272:3283 Coq.Arith.EqNat <> beq_nat_true thm
+prf 3400:3417 <> ex_falso_quodlibet
+R3449:3449 SfLib <> P var
+R3440:3444 Coq.Init.Logic <> False ind
+prf 3513:3523 <> ev_not_ev_S
+R3547:3548 Coq.Init.Logic <> :type_scope:'~'_x not
+R3549:3550 SfLib <> ev ind
+R3553:3553 Coq.Init.Datatypes <> S constr
+R3555:3555 SfLib <> n var
+R3539:3540 SfLib <> ev ind
+R3542:3542 SfLib <> n var
+R3605:3607 Coq.Init.Logic <> not def
+prf 3791:3796 <> O_le_n
+R3811:3814 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3815:3815 SfLib <> n var
+R3880:3883 Coq.Init.Peano <> le_n constr
+R3880:3883 Coq.Init.Peano <> le_n constr
+R3910:3913 Coq.Init.Peano <> le_S constr
+R3910:3913 Coq.Init.Peano <> le_S constr
+prf 3946:3961 <> n_le_m__Sn_le_Sm
+R3990:3993 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3987:3987 Coq.Init.Datatypes <> S constr
+R3989:3989 SfLib <> n var
+R3994:3994 Coq.Init.Datatypes <> S constr
+R3996:3996 SfLib <> m var
+R3978:3981 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3977:3977 SfLib <> n var
+R3982:3982 SfLib <> m var
+R4080:4083 Coq.Init.Peano <> le_n constr
+R4080:4083 Coq.Init.Peano <> le_n constr
+R4126:4129 Coq.Init.Peano <> le_S constr
+R4126:4129 Coq.Init.Peano <> le_S constr
+prf 4160:4171 <> ble_nat_true
+R4212:4215 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R4211:4211 SfLib <> n var
+R4216:4216 SfLib <> m var
+R4200:4202 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4189:4195 SfLib <> ble_nat def
+R4199:4199 SfLib <> m var
+R4197:4197 SfLib <> n var
+R4203:4206 Coq.Init.Datatypes <> true constr
+R4336:4341 SfLib <> O_le_n thm
+R4336:4341 SfLib <> O_le_n thm
+R4515:4530 SfLib <> n_le_m__Sn_le_Sm thm
+R4515:4530 SfLib <> n_le_m__Sn_le_Sm thm
+prf 4605:4615 <> le_zero_nat
+R4651:4653 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4650:4650 SfLib <> n var
+R4654:4654 Coq.Init.Datatypes <> O constr
+R4642:4644 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4641:4641 SfLib <> m var
+R4645:4645 Coq.Init.Datatypes <> O constr
+R4632:4635 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R4631:4631 SfLib <> n var
+R4636:4636 SfLib <> m var
+prf 4806:4811 <> le_suc
+R4840:4843 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R4839:4839 SfLib <> n var
+R4844:4844 SfLib <> o var
+R4830:4833 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R4827:4827 Coq.Init.Datatypes <> S constr
+R4829:4829 SfLib <> n var
+R4834:4834 SfLib <> o var
+R4924:4927 Coq.Init.Peano <> le_S constr
+R4924:4927 Coq.Init.Peano <> le_S constr
+R4940:4943 Coq.Init.Peano <> le_n constr
+R4940:4943 Coq.Init.Peano <> le_n constr
+R4971:4974 Coq.Init.Peano <> le_S constr
+R4971:4974 Coq.Init.Peano <> le_S constr
+prf 5026:5033 <> le_trans
+R5072:5075 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R5071:5071 SfLib <> m var
+R5076:5076 SfLib <> o var
+R5062:5065 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R5061:5061 SfLib <> n var
+R5066:5066 SfLib <> o var
+R5052:5055 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R5051:5051 SfLib <> m var
+R5056:5056 SfLib <> n var
+R5264:5269 SfLib <> le_suc thm
+R5264:5269 SfLib <> le_suc thm
+prf 5321:5336 <> Sn_le_Sm__n_le_m
+R5395:5398 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R5394:5394 SfLib <> n var
+R5399:5399 SfLib <> m var
+R5384:5387 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R5382:5383 SfLib <> n1 var
+R5388:5389 SfLib <> m1 var
+R5372:5374 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5370:5371 SfLib <> m1 var
+R5375:5375 Coq.Init.Datatypes <> S constr
+R5377:5377 SfLib <> m var
+R5360:5362 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5358:5359 SfLib <> n1 var
+R5363:5363 Coq.Init.Datatypes <> S constr
+R5365:5365 SfLib <> n var
+R5668:5671 Coq.Init.Peano <> le_n constr
+R5668:5671 Coq.Init.Peano <> le_n constr
+R5780:5780 Coq.Init.Datatypes <> S constr
+R5761:5768 SfLib <> le_trans thm
+R5780:5780 Coq.Init.Datatypes <> S constr
+R5761:5768 SfLib <> le_trans thm
+R5796:5799 Coq.Init.Peano <> le_S constr
+R5796:5799 Coq.Init.Peano <> le_S constr
+R5812:5815 Coq.Init.Peano <> le_n constr
+R5812:5815 Coq.Init.Peano <> le_n constr
+prf 5865:5874 <> le_ble_nat
+R5911:5913 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5900:5906 SfLib <> ble_nat def
+R5910:5910 SfLib <> m var
+R5908:5908 SfLib <> n var
+R5914:5917 Coq.Init.Datatypes <> true constr
+R5891:5894 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R5890:5890 SfLib <> n var
+R5895:5895 SfLib <> m var
+R6041:6041 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6042:6042 Coq.Init.Datatypes <> O constr
+R6041:6041 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6042:6042 Coq.Init.Datatypes <> O constr
+R6078:6078 Coq.Init.Datatypes <> O constr
+R6057:6067 SfLib <> le_zero_nat thm
+R6078:6078 Coq.Init.Datatypes <> O constr
+R6057:6067 SfLib <> le_zero_nat thm
+R6356:6356 Coq.Init.Datatypes <> S constr
+R6368:6368 Coq.Init.Datatypes <> S constr
+R6329:6344 SfLib <> Sn_le_Sm__n_le_m thm
+R6356:6356 Coq.Init.Datatypes <> S constr
+R6368:6368 Coq.Init.Datatypes <> S constr
+R6329:6344 SfLib <> Sn_le_Sm__n_le_m thm
+prf 6449:6461 <> ble_nat_false
+R6502:6503 Coq.Init.Logic <> :type_scope:'~'_x not
+R6510:6510 Coq.Init.Logic <> :type_scope:'~'_x not
+R6505:6508 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R6504:6504 SfLib <> n var
+R6509:6509 SfLib <> m var
+R6490:6492 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6479:6485 SfLib <> ble_nat def
+R6489:6489 SfLib <> m var
+R6487:6487 SfLib <> n var
+R6493:6497 Coq.Init.Datatypes <> false constr
+R6577:6586 SfLib <> le_ble_nat thm
+R6577:6586 SfLib <> le_ble_nat thm
+ind 6650:6659 <> appears_in
+constr 6695:6701 <> ai_here
+constr 6737:6744 <> ai_later
+R6666:6668 Coq.Init.Datatypes <> nat ind
+R6673:6676 Coq.Init.Datatypes <> list ind
+R6678:6680 Coq.Init.Datatypes <> nat ind
+R6715:6724 SfLib <> appears_in ind
+R6730:6731 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R6732:6732 SfLib <> l var
+R6778:6787 SfLib <> appears_in ind
+R6793:6794 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R6792:6792 SfLib <> m var
+R6795:6795 SfLib <> l var
+R6760:6769 SfLib <> appears_in ind
+R6773:6773 SfLib <> l var
+ind 6810:6817 <> next_nat
+constr 6848:6849 <> nn
+R6822:6824 Coq.Init.Datatypes <> nat ind
+R6829:6831 Coq.Init.Datatypes <> nat ind
+R6853:6860 SfLib <> next_nat ind
+R6865:6865 Coq.Init.Datatypes <> S constr
+ind 6882:6895 <> total_relation
+constr 6923:6925 <> tot
+R6906:6908 Coq.Init.Datatypes <> nat ind
+R6899:6901 Coq.Init.Datatypes <> nat ind
+R6942:6944 Coq.Init.Datatypes <> nat ind
+R6947:6960 SfLib <> total_relation ind
+R6964:6964 SfLib <> m var
+R6962:6962 SfLib <> n var
+ind 6978:6991 <> empty_relation
+R7002:7004 Coq.Init.Datatypes <> nat ind
+R6995:6997 Coq.Init.Datatypes <> nat ind
+def 7058:7065 <> relation
+R7084:7084 SfLib <> X var
+R7079:7079 SfLib <> X var
+def 7107:7119 <> deterministic
+R7135:7142 SfLib <> relation def
+R7144:7144 SfLib <> X var
+R7169:7169 SfLib <> X var
+R7194:7196 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7192:7193 SfLib <> y1 var
+R7197:7198 SfLib <> y2 var
+R7182:7182 SfLib <> R var
+R7186:7187 SfLib <> y2 var
+R7184:7184 SfLib <> x var
+R7172:7172 SfLib <> R var
+R7176:7177 SfLib <> y1 var
+R7174:7174 SfLib <> x var
+ind 7213:7217 <> multi
+constr 7297:7306 <> multi_refl
+constr 7362:7371 <> multi_step
+R7232:7239 SfLib <> relation def
+R7241:7241 SfLib <> X var
+R7344:7348 SfLib <> multi ind
+R7356:7356 SfLib <> x var
+R7354:7354 SfLib <> x var
+R7481:7485 SfLib <> multi ind
+R7493:7493 SfLib <> z var
+R7491:7491 SfLib <> x var
+R7444:7448 SfLib <> multi ind
+R7456:7456 SfLib <> z var
+R7454:7454 SfLib <> y var
+R7419:7419 SfLib <> y var
+R7417:7417 SfLib <> x var
+R7515:7519 SfLib <> multi ind
+prf 7661:7667 <> multi_R
+R7690:7697 SfLib <> relation def
+R7699:7699 SfLib <> X var
+R7709:7709 SfLib <> X var
+R7729:7733 SfLib <> multi ind
+R7739:7739 SfLib <> y var
+R7737:7737 SfLib <> x var
+R7735:7735 SfLib <> R var
+R7720:7720 SfLib <> R var
+R7724:7724 SfLib <> y var
+R7722:7722 SfLib <> x var
+R7777:7786 SfLib <> multi_step constr
+R7777:7786 SfLib <> multi_step constr
+R7811:7820 SfLib <> multi_refl constr
+R7811:7820 SfLib <> multi_refl constr
+prf 7839:7849 <> multi_trans
+R7875:7882 SfLib <> relation def
+R7884:7884 SfLib <> X var
+R7896:7896 SfLib <> X var
+R7948:7952 SfLib <> multi ind
+R7958:7958 SfLib <> z var
+R7956:7956 SfLib <> x var
+R7954:7954 SfLib <> R var
+R7927:7931 SfLib <> multi ind
+R7937:7937 SfLib <> z var
+R7935:7935 SfLib <> y var
+R7933:7933 SfLib <> R var
+R7906:7910 SfLib <> multi ind
+R7916:7916 SfLib <> y var
+R7914:7914 SfLib <> x var
+R7912:7912 SfLib <> R var
+R8159:8168 SfLib <> multi_step constr
+R8159:8168 SfLib <> multi_step constr
+ind 8346:8347 <> id
+constr 8362:8363 <> Id
+R8374:8375 SfLib <> id ind
+R8367:8369 Coq.Init.Datatypes <> nat ind
+prf 8387:8395 <> eq_id_dec
+R8416:8417 SfLib <> id ind
+R8420:8420 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8430:8434 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8445:8445 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8424:8426 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8421:8423 SfLib <> id1 var
+R8427:8429 SfLib <> id2 var
+R8438:8441 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R8435:8437 SfLib <> id1 var
+R8442:8444 SfLib <> id2 var
+R8534:8543 Coq.Arith.Peano_dec <> eq_nat_dec thm
+R8534:8543 Coq.Arith.Peano_dec <> eq_nat_dec thm
+prf 8729:8733 <> eq_id
+R8760:8760 SfLib <> T var
+R8779:8779 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8810:8813 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8783:8791 SfLib <> eq_id_dec thm
+R8795:8795 SfLib <> x var
+R8793:8793 SfLib <> x var
+R8809:8809 SfLib <> q var
+R8802:8802 SfLib <> p var
+R8814:8814 SfLib <> p var
+R8848:8856 SfLib <> eq_id_dec thm
+R8848:8856 SfLib <> eq_id_dec thm
+R8890:8907 SfLib <> ex_falso_quodlibet thm
+R8890:8907 SfLib <> ex_falso_quodlibet thm
+prf 8928:8933 <> neq_id
+R8962:8962 SfLib <> T var
+R8992:8992 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9023:9026 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8996:9004 SfLib <> eq_id_dec thm
+R9008:9008 SfLib <> y var
+R9006:9006 SfLib <> x var
+R9022:9022 SfLib <> q var
+R9015:9015 SfLib <> p var
+R9027:9027 SfLib <> q var
+R8967:8970 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R8966:8966 SfLib <> x var
+R8971:8971 SfLib <> y var
+R9070:9078 SfLib <> eq_id_dec thm
+R9070:9078 SfLib <> eq_id_dec thm
+def 9166:9176 <> partial_map
+R9196:9201 Coq.Init.Datatypes <> option ind
+R9203:9203 SfLib <> A var
+R9190:9191 SfLib <> id ind
+def 9218:9222 <> empty
+R9235:9245 SfLib <> partial_map def
+R9247:9247 SfLib <> A var
+R9262:9265 Coq.Init.Datatypes <> None constr
+R9294:9298 SfLib <> empty def
+not 9280 <> ::'\empty'
+def 9313:9318 <> extend
+R9338:9348 SfLib <> partial_map def
+R9350:9350 SfLib <> A var
+R9356:9357 SfLib <> id ind
+R9365:9365 SfLib <> A var
+R9386:9394 SfLib <> eq_id_dec thm
+R9398:9399 SfLib <> x' var
+R9396:9396 SfLib <> x var
+R9418:9422 SfLib <> Gamma var
+R9424:9425 SfLib <> x' var
+R9406:9409 Coq.Init.Datatypes <> Some constr
+R9411:9411 SfLib <> T var
+prf 9435:9443 <> extend_eq
+R9463:9473 SfLib <> partial_map def
+R9475:9475 SfLib <> A var
+R9504:9506 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9486:9491 SfLib <> extend def
+R9500:9500 SfLib <> T var
+R9498:9498 SfLib <> x var
+R9493:9496 SfLib <> ctxt var
+R9503:9503 SfLib <> x var
+R9507:9510 Coq.Init.Datatypes <> Some constr
+R9512:9512 SfLib <> T var
+R9539:9544 SfLib <> extend def
+R9555:9559 SfLib <> eq_id thm
+R9555:9559 SfLib <> eq_id thm
+prf 9581:9590 <> extend_neq
+R9610:9620 SfLib <> partial_map def
+R9622:9622 SfLib <> A var
+R9671:9673 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9651:9656 SfLib <> extend def
+R9666:9666 SfLib <> T var
+R9663:9664 SfLib <> x2 var
+R9658:9661 SfLib <> ctxt var
+R9669:9670 SfLib <> x1 var
+R9674:9677 SfLib <> ctxt var
+R9679:9680 SfLib <> x1 var
+R9638:9641 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R9636:9637 SfLib <> x2 var
+R9642:9643 SfLib <> x1 var
+R9707:9712 SfLib <> extend def
+R9723:9728 SfLib <> neq_id thm
+R9723:9728 SfLib <> neq_id thm
+prf 9750:9762 <> extend_shadow
+R9782:9792 SfLib <> partial_map def
+R9794:9794 SfLib <> A var
+R9847:9849 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9812:9817 SfLib <> extend def
+R9845:9846 SfLib <> x1 var
+R9842:9843 SfLib <> t2 var
+R9839:9840 SfLib <> x2 var
+R9820:9825 SfLib <> extend def
+R9835:9836 SfLib <> t1 var
+R9832:9833 SfLib <> x2 var
+R9827:9830 SfLib <> ctxt var
+R9850:9855 SfLib <> extend def
+R9868:9869 SfLib <> x1 var
+R9865:9866 SfLib <> t2 var
+R9862:9863 SfLib <> x2 var
+R9857:9860 SfLib <> ctxt var
+R9906:9911 SfLib <> extend def
+R9924:9932 SfLib <> eq_id_dec thm
+R9924:9932 SfLib <> eq_id_dec thm

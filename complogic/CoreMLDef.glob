@@ -1,0 +1,441 @@
+DIGEST d227b37fff11daf06e4eb8c23a1a1ecd
+FCoreMLDef
+R73:77 SfLib <> <> lib
+R95:99 Coq.Strings.Ascii <> <> lib
+R101:106 Coq.Strings.String <> <> lib
+R124:129 Coq.ZArith.BinInt <> <> lib
+ind 167:168 <> ty
+constr 184:187 <> Tint
+constr 200:204 <> Tbool
+constr 216:219 <> Tvar
+constr 239:244 <> Tarrow
+constr 267:271 <> Tprod
+R193:194 CoreMLDef <> ty ind
+R209:210 CoreMLDef <> ty ind
+R231:232 CoreMLDef <> ty ind
+R225:226 SfLib <> id ind
+R260:261 CoreMLDef <> ty ind
+R254:255 CoreMLDef <> ty ind
+R248:249 CoreMLDef <> ty ind
+R288:289 CoreMLDef <> ty ind
+R282:283 CoreMLDef <> ty ind
+R276:277 CoreMLDef <> ty ind
+ind 304:306 <> pty
+constr 322:326 <> Tmono
+constr 345:348 <> Tall
+R337:339 CoreMLDef <> pty ind
+R331:332 CoreMLDef <> ty ind
+R367:369 CoreMLDef <> pty ind
+R360:362 CoreMLDef <> pty ind
+R354:355 CoreMLDef <> ty ind
+ind 410:411 <> tm
+constr 427:432 <> TM_var
+constr 452:457 <> TM_int
+constr 475:481 <> TM_bool
+constr 501:506 <> TM_add
+constr 531:535 <> TM_eq
+constr 561:565 <> TM_gt
+constr 591:596 <> TM_lam
+constr 623:628 <> TM_app
+constr 653:659 <> TM_pair
+constr 683:689 <> TM_left
+constr 707:714 <> TM_right
+constr 731:735 <> TM_if
+constr 767:772 <> TM_fix
+constr 827:832 <> TM_let
+R444:445 CoreMLDef <> tm ind
+R438:439 SfLib <> id ind
+R468:469 CoreMLDef <> tm ind
+R463:463 Coq.Numbers.BinNums <> Z ind
+R494:495 CoreMLDef <> tm ind
+R486:489 Coq.Init.Datatypes <> bool ind
+R524:525 CoreMLDef <> tm ind
+R518:519 CoreMLDef <> tm ind
+R512:513 CoreMLDef <> tm ind
+R554:555 CoreMLDef <> tm ind
+R548:549 CoreMLDef <> tm ind
+R542:543 CoreMLDef <> tm ind
+R584:585 CoreMLDef <> tm ind
+R578:579 CoreMLDef <> tm ind
+R572:573 CoreMLDef <> tm ind
+R614:615 CoreMLDef <> tm ind
+R608:609 CoreMLDef <> tm ind
+R602:603 CoreMLDef <> tm ind
+R646:647 CoreMLDef <> tm ind
+R640:641 CoreMLDef <> tm ind
+R634:635 CoreMLDef <> tm ind
+R676:677 CoreMLDef <> tm ind
+R670:671 CoreMLDef <> tm ind
+R664:665 CoreMLDef <> tm ind
+R700:701 CoreMLDef <> tm ind
+R694:695 CoreMLDef <> tm ind
+R724:725 CoreMLDef <> tm ind
+R718:719 CoreMLDef <> tm ind
+R760:761 CoreMLDef <> tm ind
+R754:755 CoreMLDef <> tm ind
+R748:749 CoreMLDef <> tm ind
+R742:743 CoreMLDef <> tm ind
+R796:797 CoreMLDef <> tm ind
+R790:791 CoreMLDef <> tm ind
+R784:785 CoreMLDef <> tm ind
+R778:779 CoreMLDef <> tm ind
+R856:857 CoreMLDef <> tm ind
+R850:851 CoreMLDef <> tm ind
+R844:845 CoreMLDef <> tm ind
+R838:839 CoreMLDef <> tm ind
+ind 970:975 <> valueT
+constr 991:995 <> V_int
+constr 1018:1023 <> V_bool
+constr 1048:1053 <> V_pair
+constr 1090:1098 <> V_closure
+constr 1171:1180 <> V_rclosure
+R1007:1012 CoreMLDef <> valueT ind
+R1002:1002 Coq.Numbers.BinNums <> Z ind
+R1037:1042 CoreMLDef <> valueT ind
+R1029:1032 Coq.Init.Datatypes <> bool ind
+R1079:1084 CoreMLDef <> valueT ind
+R1069:1074 CoreMLDef <> valueT ind
+R1059:1064 CoreMLDef <> valueT ind
+R1136:1141 CoreMLDef <> valueT ind
+R1114:1117 Coq.Init.Datatypes <> list ind
+R1122:1124 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1120:1121 CoreMLDef <> tm ind
+R1125:1130 CoreMLDef <> valueT ind
+R1108:1109 CoreMLDef <> tm ind
+R1102:1103 CoreMLDef <> tm ind
+R1224:1229 CoreMLDef <> valueT ind
+R1202:1205 Coq.Init.Datatypes <> list ind
+R1210:1212 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1208:1209 CoreMLDef <> tm ind
+R1213:1218 CoreMLDef <> valueT ind
+R1196:1197 CoreMLDef <> tm ind
+R1190:1191 CoreMLDef <> tm ind
+R1184:1185 CoreMLDef <> tm ind
+def 1271:1274 <> envT
+R1279:1282 Coq.Init.Datatypes <> list ind
+R1287:1289 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1285:1286 CoreMLDef <> tm ind
+R1290:1295 CoreMLDef <> valueT ind
+ind 1310:1313 <> tytm
+constr 1323:1328 <> typeOf
+R1344:1347 CoreMLDef <> tytm ind
+R1338:1339 CoreMLDef <> ty ind
+R1332:1333 CoreMLDef <> tm ind
+R1376:1381 CoreMLDef <> typeOf constr
+not 1360 <> ::x_'\in'_x
+def 1413:1418 <> lookup
+R1425:1426 SfLib <> id ind
+R1438:1441 Coq.Init.Datatypes <> list ind
+R1443:1446 CoreMLDef <> tytm ind
+R1451:1456 Coq.Init.Datatypes <> option ind
+R1458:1459 CoreMLDef <> ty ind
+R1472:1476 CoreMLDef <> Gamma var
+R1491:1491 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1508:1512 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1492:1492 CoreMLDef <> ::x_'\in'_x not
+R1501:1506 CoreMLDef <> ::x_'\in'_x not
+R1493:1498 CoreMLDef <> TM_var constr
+R1526:1534 SfLib <> eq_id_dec thm
+R1536:1536 CoreMLDef <> x var
+R1594:1599 CoreMLDef <> lookup def
+R1601:1601 CoreMLDef <> x var
+R1545:1548 Coq.Init.Datatypes <> Some constr
+R1624:1627 Coq.Init.Datatypes <> None constr
+def 1648:1653 <> extend
+R1668:1668 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1676:1680 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1670:1674 CoreMLDef <> ::x_'\in'_x not
+R1669:1669 CoreMLDef <> t var
+R1675:1675 CoreMLDef <> T var
+R1681:1685 CoreMLDef <> Gamma var
+ind 1764:1771 <> has_type
+constr 1807:1811 <> T_int
+constr 1884:1889 <> T_bool
+constr 1963:1967 <> T_var
+constr 2098:2102 <> T_add
+constr 2262:2265 <> T_eq
+constr 2425:2428 <> T_gt
+constr 2588:2592 <> T_lam
+constr 2746:2750 <> T_app
+constr 2929:2934 <> T_pair
+constr 3110:3115 <> T_left
+constr 3244:3250 <> T_right
+constr 3379:3382 <> T_if
+constr 3585:3589 <> T_fix
+constr 3765:3769 <> T_let
+R1788:1791 CoreMLDef <> tytm ind
+R1775:1778 Coq.Init.Datatypes <> list ind
+R1780:1783 CoreMLDef <> tytm ind
+R3971:3978 CoreMLDef <> has_type ind
+R1856:1859 CoreMLDef <> ::x_'|-'_x not
+R1851:1855 CoreMLDef <> Gamma var
+R1860:1860 CoreMLDef <> ::x_'\in'_x not
+R1869:1874 CoreMLDef <> ::x_'\in'_x not
+R1861:1866 CoreMLDef <> TM_int constr
+R1868:1868 CoreMLDef <> n var
+R1875:1878 CoreMLDef <> Tint constr
+R1933:1936 CoreMLDef <> ::x_'|-'_x not
+R1928:1932 CoreMLDef <> Gamma var
+R1937:1937 CoreMLDef <> ::x_'\in'_x not
+R1947:1952 CoreMLDef <> ::x_'\in'_x not
+R1938:1944 CoreMLDef <> TM_bool constr
+R1946:1946 CoreMLDef <> b var
+R1953:1957 CoreMLDef <> Tbool constr
+R2069:2072 CoreMLDef <> ::x_'|-'_x not
+R2064:2068 CoreMLDef <> Gamma var
+R2073:2073 CoreMLDef <> ::x_'\in'_x not
+R2084:2089 CoreMLDef <> ::x_'\in'_x not
+R2074:2079 CoreMLDef <> TM_var constr
+R2081:2083 CoreMLDef <> id1 var
+R2090:2092 CoreMLDef <> ty1 var
+R2030:2032 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2014:2019 CoreMLDef <> lookup def
+R2025:2029 CoreMLDef <> Gamma var
+R2021:2023 CoreMLDef <> id1 var
+R2033:2036 Coq.Init.Datatypes <> Some constr
+R2038:2040 CoreMLDef <> ty1 var
+R2230:2233 CoreMLDef <> ::x_'|-'_x not
+R2225:2229 CoreMLDef <> Gamma var
+R2234:2234 CoreMLDef <> ::x_'\in'_x not
+R2247:2252 CoreMLDef <> ::x_'\in'_x not
+R2235:2240 CoreMLDef <> TM_add constr
+R2245:2246 CoreMLDef <> t2 var
+R2242:2243 CoreMLDef <> t1 var
+R2253:2256 CoreMLDef <> Tint constr
+R2191:2194 CoreMLDef <> ::x_'|-'_x not
+R2186:2190 CoreMLDef <> Gamma var
+R2197:2201 CoreMLDef <> ::x_'\in'_x not
+R2195:2196 CoreMLDef <> t2 var
+R2202:2205 CoreMLDef <> Tint constr
+R2152:2155 CoreMLDef <> ::x_'|-'_x not
+R2147:2151 CoreMLDef <> Gamma var
+R2158:2162 CoreMLDef <> ::x_'\in'_x not
+R2156:2157 CoreMLDef <> t1 var
+R2163:2166 CoreMLDef <> Tint constr
+R2393:2396 CoreMLDef <> ::x_'|-'_x not
+R2388:2392 CoreMLDef <> Gamma var
+R2397:2397 CoreMLDef <> ::x_'\in'_x not
+R2409:2414 CoreMLDef <> ::x_'\in'_x not
+R2398:2402 CoreMLDef <> TM_eq constr
+R2407:2408 CoreMLDef <> t2 var
+R2404:2405 CoreMLDef <> t1 var
+R2415:2419 CoreMLDef <> Tbool constr
+R2354:2357 CoreMLDef <> ::x_'|-'_x not
+R2349:2353 CoreMLDef <> Gamma var
+R2360:2364 CoreMLDef <> ::x_'\in'_x not
+R2358:2359 CoreMLDef <> t2 var
+R2365:2368 CoreMLDef <> Tint constr
+R2315:2318 CoreMLDef <> ::x_'|-'_x not
+R2310:2314 CoreMLDef <> Gamma var
+R2321:2325 CoreMLDef <> ::x_'\in'_x not
+R2319:2320 CoreMLDef <> t1 var
+R2326:2329 CoreMLDef <> Tint constr
+R2556:2559 CoreMLDef <> ::x_'|-'_x not
+R2551:2555 CoreMLDef <> Gamma var
+R2560:2560 CoreMLDef <> ::x_'\in'_x not
+R2572:2577 CoreMLDef <> ::x_'\in'_x not
+R2561:2565 CoreMLDef <> TM_gt constr
+R2570:2571 CoreMLDef <> t2 var
+R2567:2568 CoreMLDef <> t1 var
+R2578:2582 CoreMLDef <> Tbool constr
+R2517:2520 CoreMLDef <> ::x_'|-'_x not
+R2512:2516 CoreMLDef <> Gamma var
+R2523:2527 CoreMLDef <> ::x_'\in'_x not
+R2521:2522 CoreMLDef <> t2 var
+R2528:2531 CoreMLDef <> Tint constr
+R2478:2481 CoreMLDef <> ::x_'|-'_x not
+R2473:2477 CoreMLDef <> Gamma var
+R2484:2488 CoreMLDef <> ::x_'\in'_x not
+R2482:2483 CoreMLDef <> t1 var
+R2489:2492 CoreMLDef <> Tint constr
+R2704:2707 CoreMLDef <> ::x_'|-'_x not
+R2699:2703 CoreMLDef <> Gamma var
+R2708:2708 CoreMLDef <> ::x_'\in'_x not
+R2719:2725 CoreMLDef <> ::x_'\in'_x not
+R2740:2740 CoreMLDef <> ::x_'\in'_x not
+R2709:2714 CoreMLDef <> TM_lam constr
+R2718:2718 CoreMLDef <> t var
+R2716:2716 CoreMLDef <> x var
+R2726:2731 CoreMLDef <> Tarrow constr
+R2737:2739 CoreMLDef <> ty2 var
+R2733:2735 CoreMLDef <> ty1 var
+R2643:2643 CoreMLDef <> ::x_'|-'_x not
+R2664:2668 CoreMLDef <> ::x_'|-'_x not
+R2644:2644 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2654:2658 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2646:2650 CoreMLDef <> ::x_'\in'_x not
+R2645:2645 CoreMLDef <> x var
+R2651:2653 CoreMLDef <> ty1 var
+R2659:2663 CoreMLDef <> Gamma var
+R2670:2674 CoreMLDef <> ::x_'\in'_x not
+R2669:2669 CoreMLDef <> t var
+R2675:2677 CoreMLDef <> ty2 var
+R2898:2901 CoreMLDef <> ::x_'|-'_x not
+R2893:2897 CoreMLDef <> Gamma var
+R2902:2902 CoreMLDef <> ::x_'\in'_x not
+R2915:2920 CoreMLDef <> ::x_'\in'_x not
+R2903:2908 CoreMLDef <> TM_app constr
+R2913:2914 CoreMLDef <> t2 var
+R2910:2911 CoreMLDef <> t1 var
+R2921:2923 CoreMLDef <> ty2 var
+R2860:2863 CoreMLDef <> ::x_'|-'_x not
+R2855:2859 CoreMLDef <> Gamma var
+R2866:2870 CoreMLDef <> ::x_'\in'_x not
+R2864:2865 CoreMLDef <> t2 var
+R2871:2873 CoreMLDef <> ty1 var
+R2808:2811 CoreMLDef <> ::x_'|-'_x not
+R2803:2807 CoreMLDef <> Gamma var
+R2814:2819 CoreMLDef <> ::x_'\in'_x not
+R2834:2834 CoreMLDef <> ::x_'\in'_x not
+R2812:2813 CoreMLDef <> t1 var
+R2820:2825 CoreMLDef <> Tarrow constr
+R2831:2833 CoreMLDef <> ty2 var
+R2827:2829 CoreMLDef <> ty1 var
+R3066:3069 CoreMLDef <> ::x_'|-'_x not
+R3061:3065 CoreMLDef <> Gamma var
+R3070:3070 CoreMLDef <> ::x_'\in'_x not
+R3084:3090 CoreMLDef <> ::x_'\in'_x not
+R3104:3104 CoreMLDef <> ::x_'\in'_x not
+R3071:3077 CoreMLDef <> TM_pair constr
+R3082:3083 CoreMLDef <> t2 var
+R3079:3080 CoreMLDef <> t1 var
+R3091:3095 CoreMLDef <> Tprod constr
+R3101:3103 CoreMLDef <> ty2 var
+R3097:3099 CoreMLDef <> ty1 var
+R3027:3030 CoreMLDef <> ::x_'|-'_x not
+R3022:3026 CoreMLDef <> Gamma var
+R3033:3037 CoreMLDef <> ::x_'\in'_x not
+R3031:3032 CoreMLDef <> t2 var
+R3038:3040 CoreMLDef <> ty2 var
+R2989:2992 CoreMLDef <> ::x_'|-'_x not
+R2984:2988 CoreMLDef <> Gamma var
+R2995:2999 CoreMLDef <> ::x_'\in'_x not
+R2993:2994 CoreMLDef <> t1 var
+R3000:3002 CoreMLDef <> ty1 var
+R3216:3219 CoreMLDef <> ::x_'|-'_x not
+R3211:3215 CoreMLDef <> Gamma var
+R3220:3220 CoreMLDef <> ::x_'\in'_x not
+R3230:3235 CoreMLDef <> ::x_'\in'_x not
+R3221:3227 CoreMLDef <> TM_left constr
+R3229:3229 CoreMLDef <> t var
+R3236:3238 CoreMLDef <> ty1 var
+R3166:3169 CoreMLDef <> ::x_'|-'_x not
+R3161:3165 CoreMLDef <> Gamma var
+R3171:3176 CoreMLDef <> ::x_'\in'_x not
+R3190:3190 CoreMLDef <> ::x_'\in'_x not
+R3170:3170 CoreMLDef <> t var
+R3177:3181 CoreMLDef <> Tprod constr
+R3187:3189 CoreMLDef <> ty2 var
+R3183:3185 CoreMLDef <> ty1 var
+R3350:3353 CoreMLDef <> ::x_'|-'_x not
+R3345:3349 CoreMLDef <> Gamma var
+R3354:3354 CoreMLDef <> ::x_'\in'_x not
+R3365:3370 CoreMLDef <> ::x_'\in'_x not
+R3355:3362 CoreMLDef <> TM_right constr
+R3364:3364 CoreMLDef <> t var
+R3371:3373 CoreMLDef <> ty2 var
+R3300:3303 CoreMLDef <> ::x_'|-'_x not
+R3295:3299 CoreMLDef <> Gamma var
+R3305:3310 CoreMLDef <> ::x_'\in'_x not
+R3324:3324 CoreMLDef <> ::x_'\in'_x not
+R3304:3304 CoreMLDef <> t var
+R3311:3315 CoreMLDef <> Tprod constr
+R3321:3323 CoreMLDef <> ty2 var
+R3317:3319 CoreMLDef <> ty1 var
+R3552:3555 CoreMLDef <> ::x_'|-'_x not
+R3547:3551 CoreMLDef <> Gamma var
+R3556:3556 CoreMLDef <> ::x_'\in'_x not
+R3571:3576 CoreMLDef <> ::x_'\in'_x not
+R3557:3561 CoreMLDef <> TM_if constr
+R3569:3570 CoreMLDef <> t3 var
+R3566:3567 CoreMLDef <> t2 var
+R3563:3564 CoreMLDef <> t1 var
+R3577:3579 CoreMLDef <> ty1 var
+R3514:3517 CoreMLDef <> ::x_'|-'_x not
+R3509:3513 CoreMLDef <> Gamma var
+R3520:3524 CoreMLDef <> ::x_'\in'_x not
+R3518:3519 CoreMLDef <> t3 var
+R3525:3527 CoreMLDef <> ty1 var
+R3476:3479 CoreMLDef <> ::x_'|-'_x not
+R3471:3475 CoreMLDef <> Gamma var
+R3482:3486 CoreMLDef <> ::x_'\in'_x not
+R3480:3481 CoreMLDef <> t2 var
+R3487:3489 CoreMLDef <> ty1 var
+R3436:3439 CoreMLDef <> ::x_'|-'_x not
+R3431:3435 CoreMLDef <> Gamma var
+R3442:3446 CoreMLDef <> ::x_'\in'_x not
+R3440:3441 CoreMLDef <> t1 var
+R3447:3451 CoreMLDef <> Tbool constr
+R3723:3726 CoreMLDef <> ::x_'|-'_x not
+R3718:3722 CoreMLDef <> Gamma var
+R3727:3727 CoreMLDef <> ::x_'\in'_x not
+R3740:3745 CoreMLDef <> ::x_'\in'_x not
+R3728:3733 CoreMLDef <> TM_fix constr
+R3739:3739 CoreMLDef <> t var
+R3737:3737 CoreMLDef <> x var
+R3735:3735 CoreMLDef <> f var
+R3746:3751 CoreMLDef <> Tarrow constr
+R3757:3759 CoreMLDef <> ty2 var
+R3753:3755 CoreMLDef <> ty1 var
+R3638:3638 CoreMLDef <> ::x_'|-'_x not
+R3685:3689 CoreMLDef <> ::x_'|-'_x not
+R3639:3639 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3660:3664 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3641:3645 CoreMLDef <> ::x_'\in'_x not
+R3640:3640 CoreMLDef <> f var
+R3646:3651 CoreMLDef <> Tarrow constr
+R3657:3659 CoreMLDef <> ty2 var
+R3653:3655 CoreMLDef <> ty1 var
+R3665:3665 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3675:3679 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3667:3671 CoreMLDef <> ::x_'\in'_x not
+R3666:3666 CoreMLDef <> x var
+R3672:3674 CoreMLDef <> ty1 var
+R3680:3684 CoreMLDef <> Gamma var
+R3691:3695 CoreMLDef <> ::x_'\in'_x not
+R3690:3690 CoreMLDef <> t var
+R3696:3698 CoreMLDef <> ty2 var
+R3916:3919 CoreMLDef <> ::x_'|-'_x not
+R3911:3915 CoreMLDef <> Gamma var
+R3920:3920 CoreMLDef <> ::x_'\in'_x not
+R3935:3940 CoreMLDef <> ::x_'\in'_x not
+R3921:3926 CoreMLDef <> TM_let constr
+R3933:3934 CoreMLDef <> t2 var
+R3930:3931 CoreMLDef <> t1 var
+R3928:3928 CoreMLDef <> x var
+R3941:3943 CoreMLDef <> ty2 var
+R3878:3881 CoreMLDef <> ::x_'|-'_x not
+R3858:3858 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3868:3872 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3860:3864 CoreMLDef <> ::x_'\in'_x not
+R3859:3859 CoreMLDef <> x var
+R3865:3867 CoreMLDef <> ty1 var
+R3873:3877 CoreMLDef <> Gamma var
+R3884:3888 CoreMLDef <> ::x_'\in'_x not
+R3882:3883 CoreMLDef <> t2 var
+R3889:3891 CoreMLDef <> ty2 var
+R3825:3828 CoreMLDef <> ::x_'|-'_x not
+R3820:3824 CoreMLDef <> Gamma var
+R3831:3835 CoreMLDef <> ::x_'\in'_x not
+R3829:3830 CoreMLDef <> t1 var
+R3836:3838 CoreMLDef <> ty1 var
+R3971:3978 CoreMLDef <> has_type ind
+not 3951 <> ::x_'|-'_x
+R4016:4020 CoreMLDef <> T_int constr
+R4047:4052 CoreMLDef <> T_bool constr
+R4079:4083 CoreMLDef <> T_var constr
+R4123:4127 CoreMLDef <> T_add constr
+R4154:4158 CoreMLDef <> T_add constr
+R4213:4216 CoreMLDef <> T_eq constr
+R4243:4246 CoreMLDef <> T_gt constr
+R4273:4276 CoreMLDef <> T_gt constr
+R4332:4336 CoreMLDef <> T_lam constr
+R4363:4367 CoreMLDef <> T_lam constr
+R4395:4399 CoreMLDef <> T_app constr
+R4439:4443 CoreMLDef <> T_app constr
+R4482:4487 CoreMLDef <> T_pair constr
+R4515:4520 CoreMLDef <> T_left constr
+R4558:4564 CoreMLDef <> T_right constr
+R4601:4604 CoreMLDef <> T_if constr
+R4631:4635 CoreMLDef <> T_fix constr
+R4663:4667 CoreMLDef <> T_let constr

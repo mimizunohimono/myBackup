@@ -1,0 +1,294 @@
+DIGEST 79f810fdfc53dc0b39f9e15e94cf9824
+FPropLogicDef
+R114:118 SfLib <> <> lib
+R136:140 Coq.Strings.Ascii <> <> lib
+R142:147 Coq.Strings.String <> <> lib
+ind 184:187 <> prop
+constr 203:207 <> False
+constr 221:224 <> Pvar
+constr 246:248 <> Imp
+constr 279:281 <> And
+constr 312:313 <> Or
+constr 345:347 <> Not
+R211:214 PropLogicDef <> prop ind
+R236:239 PropLogicDef <> prop ind
+R229:231 Coq.Init.Datatypes <> nat ind
+R270:273 PropLogicDef <> prop ind
+R262:265 PropLogicDef <> prop ind
+R254:257 PropLogicDef <> prop ind
+R303:306 PropLogicDef <> prop ind
+R295:298 PropLogicDef <> prop ind
+R287:290 PropLogicDef <> prop ind
+R336:339 PropLogicDef <> prop ind
+R328:331 PropLogicDef <> prop ind
+R320:323 PropLogicDef <> prop ind
+R361:364 PropLogicDef <> prop ind
+R353:356 PropLogicDef <> prop ind
+def 379:384 <> eqprop
+R395:398 PropLogicDef <> prop ind
+R403:406 Coq.Init.Datatypes <> bool ind
+R419:419 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R422:422 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R425:425 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R420:421 PropLogicDef <> p1 var
+R423:424 PropLogicDef <> p2 var
+R436:436 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R442:442 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R448:448 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R437:441 PropLogicDef <> False constr
+R443:447 PropLogicDef <> False constr
+R453:456 Coq.Init.Datatypes <> true constr
+R462:463 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R471:473 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R481:482 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R464:467 PropLogicDef <> Pvar constr
+R474:477 PropLogicDef <> Pvar constr
+R487:493 Coq.Arith.EqNat <> beq_nat def
+R505:506 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R518:520 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R532:533 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R507:509 PropLogicDef <> Imp constr
+R521:523 PropLogicDef <> Imp constr
+R538:541 Coq.Init.Datatypes <> andb def
+R561:566 PropLogicDef <> eqprop def
+R544:549 PropLogicDef <> eqprop def
+R581:582 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R594:596 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R608:609 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R583:585 PropLogicDef <> And constr
+R597:599 PropLogicDef <> And constr
+R614:617 Coq.Init.Datatypes <> andb def
+R637:642 PropLogicDef <> eqprop def
+R620:625 PropLogicDef <> eqprop def
+R657:658 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R669:671 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R682:683 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R659:660 PropLogicDef <> Or constr
+R672:673 PropLogicDef <> Or constr
+R688:691 Coq.Init.Datatypes <> andb def
+R711:716 PropLogicDef <> eqprop def
+R694:699 PropLogicDef <> eqprop def
+R731:732 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R740:742 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R750:751 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R733:735 PropLogicDef <> Not constr
+R743:745 PropLogicDef <> Not constr
+R757:762 PropLogicDef <> eqprop def
+R777:777 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R779:779 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R781:781 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R786:790 Coq.Init.Datatypes <> false constr
+def 810:817 <> contains
+R825:828 Coq.Init.Datatypes <> list ind
+R830:833 PropLogicDef <> prop ind
+R841:844 PropLogicDef <> prop ind
+R849:852 Coq.Init.Datatypes <> bool ind
+R865:866 PropLogicDef <> pl var
+R877:879 Coq.Init.Datatypes <> nil constr
+R884:888 Coq.Init.Datatypes <> false constr
+R894:897 Coq.Init.Datatypes <> cons constr
+R909:911 Coq.Init.Datatypes <> orb def
+R928:935 PropLogicDef <> contains def
+R941:941 PropLogicDef <> p var
+R914:919 PropLogicDef <> eqprop def
+R921:921 PropLogicDef <> p var
+def 962:970 <> discharge
+R978:981 Coq.Init.Datatypes <> list ind
+R983:986 PropLogicDef <> prop ind
+R994:997 PropLogicDef <> prop ind
+R1002:1005 Coq.Init.Datatypes <> list ind
+R1007:1010 PropLogicDef <> prop ind
+R1023:1024 PropLogicDef <> pl var
+R1035:1037 Coq.Init.Datatypes <> nil constr
+R1042:1044 Coq.Init.Datatypes <> nil constr
+R1050:1053 Coq.Init.Datatypes <> cons constr
+R1069:1074 PropLogicDef <> eqprop def
+R1076:1076 PropLogicDef <> p var
+R1096:1099 Coq.Init.Datatypes <> cons constr
+R1105:1113 PropLogicDef <> discharge def
+R1119:1119 PropLogicDef <> p var
+ind 1226:1231 <> proves
+constr 1267:1272 <> Assume
+constr 1331:1334 <> ImpI
+constr 1403:1406 <> ImpE
+constr 1481:1484 <> AndI
+constr 1559:1563 <> AndEL
+constr 1622:1626 <> AndER
+constr 1685:1688 <> OrIL
+constr 1747:1750 <> OrIR
+constr 1809:1811 <> OrE
+constr 1949:1952 <> NotI
+constr 2021:2024 <> NotE
+constr 2099:2104 <> FalseE
+constr 2156:2162 <> NotNotE
+R1248:1251 PropLogicDef <> prop ind
+R1235:1238 Coq.Init.Datatypes <> list ind
+R1240:1243 PropLogicDef <> prop ind
+R1315:1320 PropLogicDef <> proves ind
+R1325:1325 PropLogicDef <> p var
+R1322:1323 PropLogicDef <> pl var
+R1303:1305 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1290:1297 PropLogicDef <> contains def
+R1302:1302 PropLogicDef <> p var
+R1299:1300 PropLogicDef <> pl var
+R1306:1309 Coq.Init.Datatypes <> true constr
+R1379:1384 PropLogicDef <> proves ind
+R1390:1392 PropLogicDef <> Imp constr
+R1396:1396 PropLogicDef <> q var
+R1394:1394 PropLogicDef <> p var
+R1386:1387 PropLogicDef <> pl var
+R1355:1360 PropLogicDef <> proves ind
+R1374:1374 PropLogicDef <> q var
+R1363:1366 Coq.Init.Datatypes <> cons constr
+R1370:1371 PropLogicDef <> pl var
+R1368:1368 PropLogicDef <> p var
+R1465:1470 PropLogicDef <> proves ind
+R1475:1475 PropLogicDef <> q var
+R1472:1473 PropLogicDef <> pl var
+R1450:1455 PropLogicDef <> proves ind
+R1460:1460 PropLogicDef <> p var
+R1457:1458 PropLogicDef <> pl var
+R1427:1432 PropLogicDef <> proves ind
+R1438:1440 PropLogicDef <> Imp constr
+R1444:1444 PropLogicDef <> q var
+R1442:1442 PropLogicDef <> p var
+R1434:1435 PropLogicDef <> pl var
+R1535:1540 PropLogicDef <> proves ind
+R1546:1548 PropLogicDef <> And constr
+R1552:1552 PropLogicDef <> q var
+R1550:1550 PropLogicDef <> p var
+R1542:1543 PropLogicDef <> pl var
+R1520:1525 PropLogicDef <> proves ind
+R1530:1530 PropLogicDef <> q var
+R1527:1528 PropLogicDef <> pl var
+R1505:1510 PropLogicDef <> proves ind
+R1515:1515 PropLogicDef <> p var
+R1512:1513 PropLogicDef <> pl var
+R1606:1611 PropLogicDef <> proves ind
+R1616:1616 PropLogicDef <> q var
+R1613:1614 PropLogicDef <> pl var
+R1583:1588 PropLogicDef <> proves ind
+R1594:1596 PropLogicDef <> And constr
+R1600:1600 PropLogicDef <> p var
+R1598:1598 PropLogicDef <> q var
+R1590:1591 PropLogicDef <> pl var
+R1669:1674 PropLogicDef <> proves ind
+R1679:1679 PropLogicDef <> q var
+R1676:1677 PropLogicDef <> pl var
+R1646:1651 PropLogicDef <> proves ind
+R1657:1659 PropLogicDef <> And constr
+R1663:1663 PropLogicDef <> q var
+R1661:1661 PropLogicDef <> p var
+R1653:1654 PropLogicDef <> pl var
+R1724:1729 PropLogicDef <> proves ind
+R1735:1736 PropLogicDef <> Or constr
+R1740:1740 PropLogicDef <> q var
+R1738:1738 PropLogicDef <> p var
+R1731:1732 PropLogicDef <> pl var
+R1709:1714 PropLogicDef <> proves ind
+R1719:1719 PropLogicDef <> p var
+R1716:1717 PropLogicDef <> pl var
+R1786:1791 PropLogicDef <> proves ind
+R1797:1798 PropLogicDef <> Or constr
+R1802:1802 PropLogicDef <> q var
+R1800:1800 PropLogicDef <> p var
+R1793:1794 PropLogicDef <> pl var
+R1771:1776 PropLogicDef <> proves ind
+R1781:1781 PropLogicDef <> q var
+R1778:1779 PropLogicDef <> pl var
+R1933:1938 PropLogicDef <> proves ind
+R1943:1943 PropLogicDef <> r var
+R1940:1941 PropLogicDef <> pl var
+R1909:1914 PropLogicDef <> proves ind
+R1928:1928 PropLogicDef <> r var
+R1917:1920 Coq.Init.Datatypes <> cons constr
+R1924:1925 PropLogicDef <> pl var
+R1922:1922 PropLogicDef <> q var
+R1857:1862 PropLogicDef <> proves ind
+R1876:1876 PropLogicDef <> r var
+R1865:1868 Coq.Init.Datatypes <> cons constr
+R1872:1873 PropLogicDef <> pl var
+R1870:1870 PropLogicDef <> p var
+R1835:1840 PropLogicDef <> proves ind
+R1846:1847 PropLogicDef <> Or constr
+R1851:1851 PropLogicDef <> q var
+R1849:1849 PropLogicDef <> p var
+R1842:1843 PropLogicDef <> pl var
+R1999:2004 PropLogicDef <> proves ind
+R2010:2012 PropLogicDef <> Not constr
+R2014:2014 PropLogicDef <> p var
+R2006:2007 PropLogicDef <> pl var
+R1971:1976 PropLogicDef <> proves ind
+R1990:1994 PropLogicDef <> False constr
+R1979:1982 Coq.Init.Datatypes <> cons constr
+R1986:1987 PropLogicDef <> pl var
+R1984:1984 PropLogicDef <> p var
+R2079:2084 PropLogicDef <> proves ind
+R2089:2093 PropLogicDef <> False constr
+R2086:2087 PropLogicDef <> pl var
+R2064:2069 PropLogicDef <> proves ind
+R2074:2074 PropLogicDef <> p var
+R2071:2072 PropLogicDef <> pl var
+R2043:2048 PropLogicDef <> proves ind
+R2054:2056 PropLogicDef <> Not constr
+R2058:2058 PropLogicDef <> p var
+R2050:2051 PropLogicDef <> pl var
+R2140:2145 PropLogicDef <> proves ind
+R2150:2150 PropLogicDef <> p var
+R2147:2148 PropLogicDef <> pl var
+R2121:2126 PropLogicDef <> proves ind
+R2131:2135 PropLogicDef <> False constr
+R2128:2129 PropLogicDef <> pl var
+R2205:2210 PropLogicDef <> proves ind
+R2215:2215 PropLogicDef <> p var
+R2212:2213 PropLogicDef <> pl var
+R2178:2183 PropLogicDef <> proves ind
+R2189:2191 PropLogicDef <> Not constr
+R2194:2196 PropLogicDef <> Not constr
+R2198:2198 PropLogicDef <> p var
+R2185:2186 PropLogicDef <> pl var
+syndef 2230:2230 <> P
+R2236:2239 PropLogicDef <> Pvar constr
+syndef 2254:2254 <> Q
+R2260:2263 PropLogicDef <> Pvar constr
+syndef 2278:2278 <> R
+R2284:2287 PropLogicDef <> Pvar constr
+syndef 2302:2302 <> S
+R2308:2311 PropLogicDef <> Pvar constr
+syndef 2326:2326 <> T
+R2332:2335 PropLogicDef <> Pvar constr
+syndef 2350:2350 <> U
+R2356:2359 PropLogicDef <> Pvar constr
+syndef 2374:2374 <> V
+R2380:2383 PropLogicDef <> Pvar constr
+syndef 2398:2398 <> W
+R2404:2407 PropLogicDef <> Pvar constr
+syndef 2422:2422 <> X
+R2428:2431 PropLogicDef <> Pvar constr
+syndef 2446:2446 <> Y
+R2452:2455 PropLogicDef <> Pvar constr
+syndef 2470:2470 <> Z
+R2476:2479 PropLogicDef <> Pvar constr
+R2510:2515 PropLogicDef <> proves ind
+not 2496 <> ::x_'|-'_x
+R2563:2565 PropLogicDef <> And constr
+not 2548 <> ::x_'/\'_x
+R2634:2635 PropLogicDef <> Or constr
+not 2619 <> ::x_'\/'_x
+R2704:2706 PropLogicDef <> Imp constr
+not 2689 <> ::x_'->'_x
+R2771:2773 PropLogicDef <> Not constr
+not 2760 <> ::'~'_x
+R2860:2865 PropLogicDef <> Assume constr
+R2903:2906 PropLogicDef <> AndI constr
+R2932:2936 PropLogicDef <> AndEL constr
+R2965:2969 PropLogicDef <> AndER constr
+R2997:3000 PropLogicDef <> OrIL constr
+R3025:3028 PropLogicDef <> OrIR constr
+R3054:3056 PropLogicDef <> OrE constr
+R3086:3089 PropLogicDef <> ImpI constr
+R3115:3118 PropLogicDef <> ImpE constr
+R3146:3149 PropLogicDef <> NotI constr
+R3175:3178 PropLogicDef <> NotE constr
+R3206:3211 PropLogicDef <> FalseE constr
+R3236:3242 PropLogicDef <> NotNotE constr

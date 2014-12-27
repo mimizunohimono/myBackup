@@ -1,0 +1,457 @@
+DIGEST c2cb88d3d4ca370d5409393d2ac0237b
+FSimpleTypeDef
+R148:152 SfLib <> <> lib
+R170:174 Coq.Strings.Ascii <> <> lib
+R176:181 Coq.Strings.String <> <> lib
+ind 379:380 <> ty
+constr 396:400 <> Empty
+constr 412:415 <> Tvar
+constr 434:438 <> Arrow
+constr 461:464 <> Prod
+constr 488:490 <> Sum
+R404:405 SimpleTypeDef <> ty ind
+R426:427 SimpleTypeDef <> ty ind
+R420:421 SfLib <> id ind
+R454:455 SimpleTypeDef <> ty ind
+R448:449 SimpleTypeDef <> ty ind
+R442:443 SimpleTypeDef <> ty ind
+R481:482 SimpleTypeDef <> ty ind
+R475:476 SimpleTypeDef <> ty ind
+R469:470 SimpleTypeDef <> ty ind
+R508:509 SimpleTypeDef <> ty ind
+R502:503 SimpleTypeDef <> ty ind
+R496:497 SimpleTypeDef <> ty ind
+ind 524:525 <> tm
+constr 541:543 <> var
+constr 564:566 <> lam
+constr 600:602 <> app
+constr 628:631 <> pair
+constr 656:659 <> left
+constr 678:682 <> right
+constr 700:702 <> inl
+constr 722:724 <> inr
+constr 744:747 <> case
+constr 802:806 <> abort
+R556:557 SimpleTypeDef <> tm ind
+R550:551 SfLib <> id ind
+R591:592 SimpleTypeDef <> tm ind
+R585:586 SimpleTypeDef <> tm ind
+R579:580 SimpleTypeDef <> ty ind
+R573:574 SimpleTypeDef <> tm ind
+R621:622 SimpleTypeDef <> tm ind
+R615:616 SimpleTypeDef <> tm ind
+R609:610 SimpleTypeDef <> tm ind
+R649:650 SimpleTypeDef <> tm ind
+R643:644 SimpleTypeDef <> tm ind
+R637:638 SimpleTypeDef <> tm ind
+R671:672 SimpleTypeDef <> tm ind
+R665:666 SimpleTypeDef <> tm ind
+R693:694 SimpleTypeDef <> tm ind
+R687:688 SimpleTypeDef <> tm ind
+R715:716 SimpleTypeDef <> tm ind
+R709:710 SimpleTypeDef <> tm ind
+R737:738 SimpleTypeDef <> tm ind
+R731:732 SimpleTypeDef <> tm ind
+R795:796 SimpleTypeDef <> tm ind
+R789:790 SimpleTypeDef <> tm ind
+R783:784 SimpleTypeDef <> ty ind
+R777:778 SimpleTypeDef <> tm ind
+R771:772 SimpleTypeDef <> tm ind
+R765:766 SimpleTypeDef <> ty ind
+R759:760 SimpleTypeDef <> tm ind
+R753:754 SimpleTypeDef <> tm ind
+R817:818 SimpleTypeDef <> tm ind
+R811:812 SimpleTypeDef <> tm ind
+ind 833:836 <> tytm
+constr 846:851 <> typeOf
+R867:870 SimpleTypeDef <> tytm ind
+R861:862 SimpleTypeDef <> ty ind
+R855:856 SimpleTypeDef <> tm ind
+R899:904 SimpleTypeDef <> typeOf constr
+not 883 <> ::x_'\in'_x
+def 1063:1068 <> lookup
+R1075:1076 SfLib <> id ind
+R1088:1091 Coq.Init.Datatypes <> list ind
+R1093:1096 SimpleTypeDef <> tytm ind
+R1101:1106 Coq.Init.Datatypes <> option ind
+R1108:1109 SimpleTypeDef <> ty ind
+R1122:1126 SimpleTypeDef <> Gamma var
+R1141:1141 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1155:1159 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1142:1142 SimpleTypeDef <> ::x_'\in'_x not
+R1148:1153 SimpleTypeDef <> ::x_'\in'_x not
+R1143:1145 SimpleTypeDef <> var constr
+R1173:1181 SfLib <> eq_id_dec thm
+R1183:1183 SimpleTypeDef <> x var
+R1241:1246 SimpleTypeDef <> lookup def
+R1248:1248 SimpleTypeDef <> x var
+R1192:1195 Coq.Init.Datatypes <> Some constr
+R1271:1274 Coq.Init.Datatypes <> None constr
+ind 1360:1367 <> has_type
+constr 1404:1408 <> T_var
+constr 1528:1532 <> T_lam
+constr 1691:1695 <> T_app
+constr 1864:1869 <> T_pair
+constr 2036:2041 <> T_left
+constr 2146:2152 <> T_right
+constr 2256:2260 <> T_inl
+constr 2363:2367 <> T_inr
+constr 2470:2475 <> T_case
+constr 2757:2763 <> T_abort
+R1384:1387 SimpleTypeDef <> tytm ind
+R1371:1374 Coq.Init.Datatypes <> list ind
+R1376:1379 SimpleTypeDef <> tytm ind
+R2877:2884 SimpleTypeDef <> has_type ind
+R1505:1508 SimpleTypeDef <> ::x_'|-'_x not
+R1500:1504 SimpleTypeDef <> Gamma var
+R1509:1509 SimpleTypeDef <> ::x_'\in'_x not
+R1515:1520 SimpleTypeDef <> ::x_'\in'_x not
+R1510:1512 SimpleTypeDef <> var constr
+R1514:1514 SimpleTypeDef <> x var
+R1521:1522 SimpleTypeDef <> T1 var
+R1467:1469 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1453:1458 SimpleTypeDef <> lookup def
+R1462:1466 SimpleTypeDef <> Gamma var
+R1460:1460 SimpleTypeDef <> x var
+R1470:1473 Coq.Init.Datatypes <> Some constr
+R1475:1476 SimpleTypeDef <> T1 var
+R1646:1649 SimpleTypeDef <> ::x_'|-'_x not
+R1641:1645 SimpleTypeDef <> Gamma var
+R1650:1650 SimpleTypeDef <> ::x_'\in'_x not
+R1667:1673 SimpleTypeDef <> ::x_'\in'_x not
+R1685:1685 SimpleTypeDef <> ::x_'\in'_x not
+R1651:1653 SimpleTypeDef <> lam constr
+R1666:1666 SimpleTypeDef <> t var
+R1663:1664 SimpleTypeDef <> T1 var
+R1656:1658 SimpleTypeDef <> var constr
+R1660:1660 SimpleTypeDef <> x var
+R1674:1678 SimpleTypeDef <> Arrow constr
+R1683:1684 SimpleTypeDef <> T2 var
+R1680:1681 SimpleTypeDef <> T1 var
+R1581:1581 SimpleTypeDef <> ::x_'|-'_x not
+R1607:1611 SimpleTypeDef <> ::x_'|-'_x not
+R1582:1582 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1597:1601 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1583:1583 SimpleTypeDef <> ::x_'\in'_x not
+R1589:1594 SimpleTypeDef <> ::x_'\in'_x not
+R1584:1586 SimpleTypeDef <> var constr
+R1588:1588 SimpleTypeDef <> x var
+R1595:1596 SimpleTypeDef <> T1 var
+R1602:1606 SimpleTypeDef <> Gamma var
+R1613:1617 SimpleTypeDef <> ::x_'\in'_x not
+R1612:1612 SimpleTypeDef <> t var
+R1618:1619 SimpleTypeDef <> T2 var
+R1837:1840 SimpleTypeDef <> ::x_'|-'_x not
+R1832:1836 SimpleTypeDef <> Gamma var
+R1841:1841 SimpleTypeDef <> ::x_'\in'_x not
+R1851:1856 SimpleTypeDef <> ::x_'\in'_x not
+R1842:1844 SimpleTypeDef <> app constr
+R1849:1850 SimpleTypeDef <> t2 var
+R1846:1847 SimpleTypeDef <> t1 var
+R1857:1858 SimpleTypeDef <> T2 var
+R1800:1803 SimpleTypeDef <> ::x_'|-'_x not
+R1795:1799 SimpleTypeDef <> Gamma var
+R1806:1810 SimpleTypeDef <> ::x_'\in'_x not
+R1804:1805 SimpleTypeDef <> t2 var
+R1811:1812 SimpleTypeDef <> T1 var
+R1751:1754 SimpleTypeDef <> ::x_'|-'_x not
+R1746:1750 SimpleTypeDef <> Gamma var
+R1757:1762 SimpleTypeDef <> ::x_'\in'_x not
+R1774:1774 SimpleTypeDef <> ::x_'\in'_x not
+R1755:1756 SimpleTypeDef <> t1 var
+R1763:1767 SimpleTypeDef <> Arrow constr
+R1772:1773 SimpleTypeDef <> T2 var
+R1769:1770 SimpleTypeDef <> T1 var
+R1998:2001 SimpleTypeDef <> ::x_'|-'_x not
+R1993:1997 SimpleTypeDef <> Gamma var
+R2002:2002 SimpleTypeDef <> ::x_'\in'_x not
+R2013:2019 SimpleTypeDef <> ::x_'\in'_x not
+R2030:2030 SimpleTypeDef <> ::x_'\in'_x not
+R2003:2006 SimpleTypeDef <> pair constr
+R2011:2012 SimpleTypeDef <> t2 var
+R2008:2009 SimpleTypeDef <> t1 var
+R2020:2023 SimpleTypeDef <> Prod constr
+R2028:2029 SimpleTypeDef <> T2 var
+R2025:2026 SimpleTypeDef <> T1 var
+R1960:1963 SimpleTypeDef <> ::x_'|-'_x not
+R1955:1959 SimpleTypeDef <> Gamma var
+R1966:1970 SimpleTypeDef <> ::x_'\in'_x not
+R1964:1965 SimpleTypeDef <> t2 var
+R1971:1972 SimpleTypeDef <> T2 var
+R1922:1925 SimpleTypeDef <> ::x_'|-'_x not
+R1917:1921 SimpleTypeDef <> Gamma var
+R1928:1932 SimpleTypeDef <> ::x_'\in'_x not
+R1926:1927 SimpleTypeDef <> t1 var
+R1933:1934 SimpleTypeDef <> T1 var
+R2121:2124 SimpleTypeDef <> ::x_'|-'_x not
+R2116:2120 SimpleTypeDef <> Gamma var
+R2125:2125 SimpleTypeDef <> ::x_'\in'_x not
+R2132:2138 SimpleTypeDef <> ::x_'\in'_x not
+R2126:2129 SimpleTypeDef <> left constr
+R2131:2131 SimpleTypeDef <> t var
+R2139:2140 SimpleTypeDef <> T1 var
+R2090:2093 SimpleTypeDef <> ::x_'|-'_x not
+R2085:2089 SimpleTypeDef <> Gamma var
+R2095:2100 SimpleTypeDef <> ::x_'\in'_x not
+R2111:2111 SimpleTypeDef <> ::x_'\in'_x not
+R2094:2094 SimpleTypeDef <> t var
+R2101:2104 SimpleTypeDef <> Prod constr
+R2109:2110 SimpleTypeDef <> T2 var
+R2106:2107 SimpleTypeDef <> T1 var
+R2231:2234 SimpleTypeDef <> ::x_'|-'_x not
+R2226:2230 SimpleTypeDef <> Gamma var
+R2235:2235 SimpleTypeDef <> ::x_'\in'_x not
+R2243:2248 SimpleTypeDef <> ::x_'\in'_x not
+R2236:2240 SimpleTypeDef <> right constr
+R2242:2242 SimpleTypeDef <> t var
+R2249:2250 SimpleTypeDef <> T2 var
+R2200:2203 SimpleTypeDef <> ::x_'|-'_x not
+R2195:2199 SimpleTypeDef <> Gamma var
+R2205:2210 SimpleTypeDef <> ::x_'\in'_x not
+R2221:2221 SimpleTypeDef <> ::x_'\in'_x not
+R2204:2204 SimpleTypeDef <> t var
+R2211:2214 SimpleTypeDef <> Prod constr
+R2219:2220 SimpleTypeDef <> T2 var
+R2216:2217 SimpleTypeDef <> T1 var
+R2331:2334 SimpleTypeDef <> ::x_'|-'_x not
+R2326:2330 SimpleTypeDef <> Gamma var
+R2335:2335 SimpleTypeDef <> ::x_'\in'_x not
+R2341:2347 SimpleTypeDef <> ::x_'\in'_x not
+R2357:2357 SimpleTypeDef <> ::x_'\in'_x not
+R2336:2338 SimpleTypeDef <> inl constr
+R2340:2340 SimpleTypeDef <> t var
+R2348:2350 SimpleTypeDef <> Sum constr
+R2355:2356 SimpleTypeDef <> T2 var
+R2352:2353 SimpleTypeDef <> T1 var
+R2310:2313 SimpleTypeDef <> ::x_'|-'_x not
+R2305:2309 SimpleTypeDef <> Gamma var
+R2315:2319 SimpleTypeDef <> ::x_'\in'_x not
+R2314:2314 SimpleTypeDef <> t var
+R2320:2321 SimpleTypeDef <> T1 var
+R2438:2441 SimpleTypeDef <> ::x_'|-'_x not
+R2433:2437 SimpleTypeDef <> Gamma var
+R2442:2442 SimpleTypeDef <> ::x_'\in'_x not
+R2448:2454 SimpleTypeDef <> ::x_'\in'_x not
+R2464:2464 SimpleTypeDef <> ::x_'\in'_x not
+R2443:2445 SimpleTypeDef <> inr constr
+R2447:2447 SimpleTypeDef <> t var
+R2455:2457 SimpleTypeDef <> Sum constr
+R2462:2463 SimpleTypeDef <> T2 var
+R2459:2460 SimpleTypeDef <> T1 var
+R2417:2420 SimpleTypeDef <> ::x_'|-'_x not
+R2412:2416 SimpleTypeDef <> Gamma var
+R2422:2426 SimpleTypeDef <> ::x_'\in'_x not
+R2421:2421 SimpleTypeDef <> t var
+R2427:2428 SimpleTypeDef <> T2 var
+R2704:2707 SimpleTypeDef <> ::x_'|-'_x not
+R2699:2703 SimpleTypeDef <> Gamma var
+R2708:2708 SimpleTypeDef <> ::x_'\in'_x not
+R2744:2749 SimpleTypeDef <> ::x_'\in'_x not
+R2709:2712 SimpleTypeDef <> case constr
+R2742:2743 SimpleTypeDef <> t2 var
+R2739:2740 SimpleTypeDef <> T2 var
+R2732:2734 SimpleTypeDef <> var constr
+R2736:2736 SimpleTypeDef <> y var
+R2728:2729 SimpleTypeDef <> t1 var
+R2725:2726 SimpleTypeDef <> T1 var
+R2718:2720 SimpleTypeDef <> var constr
+R2722:2722 SimpleTypeDef <> x var
+R2714:2715 SimpleTypeDef <> t0 var
+R2750:2751 SimpleTypeDef <> T3 var
+R2639:2639 SimpleTypeDef <> ::x_'|-'_x not
+R2665:2669 SimpleTypeDef <> ::x_'|-'_x not
+R2640:2640 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2655:2659 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2641:2641 SimpleTypeDef <> ::x_'\in'_x not
+R2647:2652 SimpleTypeDef <> ::x_'\in'_x not
+R2642:2644 SimpleTypeDef <> var constr
+R2646:2646 SimpleTypeDef <> y var
+R2653:2654 SimpleTypeDef <> T2 var
+R2660:2664 SimpleTypeDef <> Gamma var
+R2672:2676 SimpleTypeDef <> ::x_'\in'_x not
+R2670:2671 SimpleTypeDef <> t2 var
+R2677:2678 SimpleTypeDef <> T3 var
+R2580:2580 SimpleTypeDef <> ::x_'|-'_x not
+R2606:2610 SimpleTypeDef <> ::x_'|-'_x not
+R2581:2581 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2596:2600 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2582:2582 SimpleTypeDef <> ::x_'\in'_x not
+R2588:2593 SimpleTypeDef <> ::x_'\in'_x not
+R2583:2585 SimpleTypeDef <> var constr
+R2587:2587 SimpleTypeDef <> x var
+R2594:2595 SimpleTypeDef <> T1 var
+R2601:2605 SimpleTypeDef <> Gamma var
+R2613:2617 SimpleTypeDef <> ::x_'\in'_x not
+R2611:2612 SimpleTypeDef <> t1 var
+R2618:2619 SimpleTypeDef <> T3 var
+R2538:2541 SimpleTypeDef <> ::x_'|-'_x not
+R2533:2537 SimpleTypeDef <> Gamma var
+R2544:2549 SimpleTypeDef <> ::x_'\in'_x not
+R2559:2559 SimpleTypeDef <> ::x_'\in'_x not
+R2542:2543 SimpleTypeDef <> t0 var
+R2550:2552 SimpleTypeDef <> Sum constr
+R2557:2558 SimpleTypeDef <> T2 var
+R2554:2555 SimpleTypeDef <> T1 var
+R2831:2834 SimpleTypeDef <> ::x_'|-'_x not
+R2826:2830 SimpleTypeDef <> Gamma var
+R2835:2835 SimpleTypeDef <> ::x_'\in'_x not
+R2843:2848 SimpleTypeDef <> ::x_'\in'_x not
+R2836:2840 SimpleTypeDef <> abort constr
+R2842:2842 SimpleTypeDef <> t var
+R2849:2849 SimpleTypeDef <> T var
+R2807:2810 SimpleTypeDef <> ::x_'|-'_x not
+R2802:2806 SimpleTypeDef <> Gamma var
+R2812:2816 SimpleTypeDef <> ::x_'\in'_x not
+R2811:2811 SimpleTypeDef <> t var
+R2817:2821 SimpleTypeDef <> Empty constr
+R2877:2884 SimpleTypeDef <> has_type ind
+not 2857 <> ::x_'|-'_x
+R2922:2926 SimpleTypeDef <> T_var constr
+R2966:2970 SimpleTypeDef <> T_var constr
+R3010:3014 SimpleTypeDef <> T_lam constr
+R3041:3045 SimpleTypeDef <> T_lam constr
+R3072:3076 SimpleTypeDef <> T_lam constr
+R3103:3107 SimpleTypeDef <> T_lam constr
+R3135:3139 SimpleTypeDef <> T_app constr
+R3179:3183 SimpleTypeDef <> T_app constr
+R3223:3227 SimpleTypeDef <> T_app constr
+R3267:3271 SimpleTypeDef <> T_app constr
+R3310:3315 SimpleTypeDef <> T_pair constr
+R3342:3347 SimpleTypeDef <> T_pair constr
+R3375:3380 SimpleTypeDef <> T_left constr
+R3418:3423 SimpleTypeDef <> T_left constr
+R3461:3467 SimpleTypeDef <> T_right constr
+R3505:3511 SimpleTypeDef <> T_right constr
+R3548:3552 SimpleTypeDef <> T_inl constr
+R3579:3583 SimpleTypeDef <> T_inl constr
+R3610:3614 SimpleTypeDef <> T_inr constr
+R3641:3645 SimpleTypeDef <> T_inr constr
+R3672:3677 SimpleTypeDef <> T_case constr
+R3704:3709 SimpleTypeDef <> T_case constr
+R3736:3742 SimpleTypeDef <> T_abort constr
+R3769:3775 SimpleTypeDef <> T_abort constr
+syndef 3788:3788 <> T
+R3794:3797 SimpleTypeDef <> Tvar constr
+R3800:3801 SfLib <> Id constr
+syndef 3817:3817 <> S
+R3823:3826 SimpleTypeDef <> Tvar constr
+R3829:3830 SfLib <> Id constr
+syndef 3846:3846 <> U
+R3852:3855 SimpleTypeDef <> Tvar constr
+R3858:3859 SfLib <> Id constr
+syndef 3875:3875 <> V
+R3881:3884 SimpleTypeDef <> Tvar constr
+R3887:3888 SfLib <> Id constr
+syndef 3904:3904 <> W
+R3910:3913 SimpleTypeDef <> Tvar constr
+R3916:3917 SfLib <> Id constr
+syndef 3933:3933 <> X
+R3939:3942 SimpleTypeDef <> Tvar constr
+R3945:3946 SfLib <> Id constr
+syndef 3962:3962 <> Y
+R3968:3971 SimpleTypeDef <> Tvar constr
+R3974:3975 SfLib <> Id constr
+syndef 3991:3991 <> Z
+R3997:4000 SimpleTypeDef <> Tvar constr
+R4003:4004 SfLib <> Id constr
+syndef 4021:4021 <> a
+R4027:4029 SimpleTypeDef <> var constr
+R4032:4033 SfLib <> Id constr
+syndef 4051:4051 <> b
+R4057:4059 SimpleTypeDef <> var constr
+R4062:4063 SfLib <> Id constr
+syndef 4081:4081 <> c
+R4087:4089 SimpleTypeDef <> var constr
+R4092:4093 SfLib <> Id constr
+syndef 4111:4111 <> d
+R4117:4119 SimpleTypeDef <> var constr
+R4122:4123 SfLib <> Id constr
+syndef 4141:4141 <> e
+R4147:4149 SimpleTypeDef <> var constr
+R4152:4153 SfLib <> Id constr
+syndef 4171:4171 <> f
+R4177:4179 SimpleTypeDef <> var constr
+R4182:4183 SfLib <> Id constr
+syndef 4201:4201 <> g
+R4207:4209 SimpleTypeDef <> var constr
+R4212:4213 SfLib <> Id constr
+syndef 4231:4231 <> h
+R4237:4239 SimpleTypeDef <> var constr
+R4242:4243 SfLib <> Id constr
+syndef 4261:4261 <> i
+R4267:4269 SimpleTypeDef <> var constr
+R4272:4273 SfLib <> Id constr
+syndef 4291:4291 <> j
+R4297:4299 SimpleTypeDef <> var constr
+R4302:4303 SfLib <> Id constr
+syndef 4321:4321 <> k
+R4327:4329 SimpleTypeDef <> var constr
+R4332:4333 SfLib <> Id constr
+syndef 4351:4351 <> l
+R4357:4359 SimpleTypeDef <> var constr
+R4362:4363 SfLib <> Id constr
+syndef 4381:4381 <> m
+R4387:4389 SimpleTypeDef <> var constr
+R4392:4393 SfLib <> Id constr
+syndef 4411:4411 <> n
+R4417:4419 SimpleTypeDef <> var constr
+R4422:4423 SfLib <> Id constr
+syndef 4441:4441 <> o
+R4447:4449 SimpleTypeDef <> var constr
+R4452:4453 SfLib <> Id constr
+syndef 4471:4471 <> p
+R4477:4479 SimpleTypeDef <> var constr
+R4482:4483 SfLib <> Id constr
+syndef 4501:4501 <> q
+R4507:4509 SimpleTypeDef <> var constr
+R4512:4513 SfLib <> Id constr
+syndef 4531:4531 <> r
+R4537:4539 SimpleTypeDef <> var constr
+R4542:4543 SfLib <> Id constr
+syndef 4561:4561 <> s
+R4567:4569 SimpleTypeDef <> var constr
+R4572:4573 SfLib <> Id constr
+syndef 4591:4591 <> t
+R4597:4599 SimpleTypeDef <> var constr
+R4602:4603 SfLib <> Id constr
+syndef 4621:4621 <> u
+R4627:4629 SimpleTypeDef <> var constr
+R4632:4633 SfLib <> Id constr
+syndef 4651:4651 <> v
+R4657:4659 SimpleTypeDef <> var constr
+R4662:4663 SfLib <> Id constr
+syndef 4681:4681 <> w
+R4687:4689 SimpleTypeDef <> var constr
+R4692:4693 SfLib <> Id constr
+syndef 4711:4711 <> x
+R4717:4719 SimpleTypeDef <> var constr
+R4722:4723 SfLib <> Id constr
+syndef 4741:4741 <> y
+R4747:4749 SimpleTypeDef <> var constr
+R4752:4753 SfLib <> Id constr
+syndef 4771:4771 <> z
+R4777:4779 SimpleTypeDef <> var constr
+R4782:4783 SfLib <> Id constr
+ind 4803:4804 <> ex
+constr 4845:4852 <> ex_intro
+R4822:4822 SimpleTypeDef <> X var
+R4891:4892 SimpleTypeDef <> ex ind
+R4880:4886 SimpleTypeDef <> witness var
+R4949:4953 SimpleTypeDef <> Arrow constr
+not 4934 <> ::x_'->'_x
+R5022:5024 SimpleTypeDef <> Sum constr
+not 5007 <> ::x_'+'_x
+R5092:5095 SimpleTypeDef <> Prod constr
+not 5077 <> ::x_'*'_x
+R5181:5183 SimpleTypeDef <> lam constr
+not 5149 <> ::'\lambda'_'('_x_'\in'_x_')'_x
+R5246:5248 SimpleTypeDef <> app constr
+not 5232 <> ::x_'@'_x
+R5317:5320 SimpleTypeDef <> pair constr
+not 5301 <> ::'('_x_','_x_')'
+R5417:5420 SimpleTypeDef <> case constr
+not 5350 <> ::'case'_'('_x_','_'('_x_'\in'_x_')'_x_','_'('_x_'\in'_x_')'_x_')'
+R5520:5521 SimpleTypeDef <> ex ind
+R5523:5524 SimpleTypeDef <> tm ind
+not 5494 <> ::'exists_term'_x_','_x
+R5592:5599 SimpleTypeDef <> ex_intro constr

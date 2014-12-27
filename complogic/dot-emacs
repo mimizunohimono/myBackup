@@ -1,0 +1,17 @@
+;; add this file to your ~/.emacs file:
+;;     cat dot-emacs >> ~/.emacs
+
+;; proof general 
+(load "/opt/local/share/ProofGeneral/generic/proof-site.el")
+
+;; to use C-c C-j for proof-goto-point
+(defadvice coq-mode-config (after deactivate-holes-mode () activate)
+  "Deactivate holes-mode when coq-mode is activated."
+  (progn (holes-mode 0))
+)
+(add-hook 'proof-mode-hook
+   '(lambda ()
+      (define-key proof-mode-map (kbd "C-c C-j") 'proof-goto-point)))
+
+	  
+
